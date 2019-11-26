@@ -1,0 +1,21 @@
+<h2>Liste des clients</h2>
+<br>
+<table class="table table-striped " *ngIf="clients">
+  <thead>
+  <tr><th>Nom</th><th>Prenom</th><th></th>
+  </thead>
+  <tbody >
+  <tr *ngFor="let client of clients._embedded.clients">
+    <td>
+      {{client.nom}}
+    </td>
+    <td>
+      {{client.prenom}}
+    </td>
+    <td>
+      <a (click)="onGetAnalyseClient(client)" class="pointer">liste des analyses</a>
+    </td>
+
+  </tr>
+  </tbody>
+</table>

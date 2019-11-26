@@ -1,0 +1,36 @@
+<h2>Toutes les analyses</h2>
+<br>
+<table class="table table-striped " *ngIf="analyses">
+  <thead>
+  <tr><th>Name</th><th>Prix</th><th>Resultat</th><th>Resultat connu</th><th>Date</th></tr>
+  </thead>
+  <tbody >
+  <tr *ngFor="let analyse of analyses._embedded.analyses">
+    <td>
+      {{analyse.name}}
+    </td>
+    <td>
+      {{analyse.prix | number:"0.4"}}
+    </td>
+    <td>
+      {{analyse.resultat}}
+    </td>
+    <td>
+      {{analyse.resultConnu}}
+    </td>
+    <td>
+      {{analyse.date | date:"dd-MM-yyyy"}}
+    </td>
+    <td *ngIf="analyse._links.client">
+      <a class="pointer" (click)="onShowUserDetails(analyse)">client</a>
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+
+<ul *ngIf="pages" class="nav nav-pills">
+  <li *ngFor="let p of pages; let i=index" [ngClass]="currentPage==i?'active':''" class="clickable">
+    <a (click)="onPageProduct(i)" class="btn">{{i}}</a>
+  </li>
+</ul>

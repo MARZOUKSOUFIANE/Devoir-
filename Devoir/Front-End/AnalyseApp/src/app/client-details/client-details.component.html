@@ -1,0 +1,22 @@
+<div class="col-md-6" *ngIf="client">
+  <div class="panel panel-default heigted">
+    <div class="panel-heading">
+      {{client.nom}}
+    </div>
+    <div class="panel-body">
+      <img class="img-thumbnail img-rounded btn" src="{{catalogueService.host+'/photoClient/'+client.id+'?ts='+getTs()}}" style="max-height: 150px">
+      <div *ngIf="isManger()">
+          <input type="file" (change)="onSelectedFile($event)">
+          <button class="btn btn-success" (click)="uploadPhoto()">Upload</button>
+          {{progress}}
+      </div>
+      <div>
+        <strong>Nom: </strong>{{client.nom}}
+      </div>
+      <div>
+        <strong>Prenom: </strong>{{client.prenom}}
+      </div>
+      <br>
+    </div>
+  </div>
+</div>

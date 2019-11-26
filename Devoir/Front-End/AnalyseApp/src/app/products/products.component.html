@@ -1,0 +1,26 @@
+<h2>Toutes les analyses du client <strong *ngIf="client">{{client.nom}}</strong></h2>
+<br>
+<table class="table table-striped " *ngIf="analyses && analyses!= 'undefined'">
+  <thead>
+  <tr><th>Name</th><th>Prix</th><th>Resultat</th><th>Resultat connu</th><th>Date</th></tr>
+  </thead>
+  <tbody >
+  <tr *ngFor="let analyse of analyses._embedded.analyses">
+    <td>
+      {{analyse.name}}
+    </td>
+    <td>
+      {{analyse.prix | number:"0.4"}}
+    </td>
+    <td>
+      {{analyse.resultat}}
+    </td>
+    <td>
+      {{analyse.resultConnu}}
+    </td>
+    <td>
+      {{analyse.date | date:"dd-MM-yyyy"}}
+    </td>
+  </tr>
+  </tbody>
+</table>

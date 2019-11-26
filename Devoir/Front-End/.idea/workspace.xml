@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c8df16f8-4e73-4008-ba24-a331d42d0279" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../AppHazelcast1/src/main/java/hc/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AppHazelcast1/src/main/java/hc/Reducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AppHazelcast1/src/main/java/hc/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AppHazelcast1/src/main/java/hc/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AppHazelcast1/src/main/java/hc/TaskSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AnalyseApp/src/app/admin-categories/admin-categories.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AnalyseApp/src/app/admin-categories/admin-categories.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AnalyseApp/src/app/admin-products/admin-products.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AnalyseApp/src/app/admin-products/admin-products.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AnalyseApp/src/app/admin-users/admin-users.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AnalyseApp/src/app/admin-users/admin-users.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AnalyseApp/src/app/categories/categories.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AnalyseApp/src/app/categories/categories.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AnalyseApp/src/app/categories/categories.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AnalyseApp/src/app/categories/categories.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../devoir-analyse-microservice/src/main/java/com/glsid/web/RestConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../devoir-analyse-microservice/src/main/java/com/glsid/web/RestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Security-JWT/security_service/src/test/java/com/sid/security_service/AccountRestControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Security-JWT/security_service/src/test/java/com/sid/security_service/AccountServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../banque-spring-batch/src/main/java/com/sid/batch/BankTransactionItemAnalyticsProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../banque-spring-batch/src/main/java/com/sid/batch/BankTransactionItemProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../banque-spring-batch/src/main/java/com/sid/batch/BankTransactionItemWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../banque-spring-batch/src/main/java/com/sid/batch/SpringBatchConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../banque-spring-batch/src/main/java/com/sid/dao/BankTransactionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../banque-spring-batch/src/main/java/com/sid/entities/BankTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../banque-spring-batch/src/main/java/com/sid/web/JobRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../banque-spring-batch/src/main/resources/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../call-microservice/src/main/java/com/glsid/callmicroservice/CustomKeycloakSpringBootConfigResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../call-microservice/src/main/java/com/glsid/callmicroservice/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clientui/src/main/java/com/client/beans/ProductBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clientui/src/main/java/com/client/configuration/FeignExceptionConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clientui/src/main/java/com/client/controller/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clientui/src/main/java/com/client/exception/CustomError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clientui/src/main/java/com/client/exception/ProductNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clientui/src/main/java/com/client/proxies/MicroserviceProduitsproxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clientui/src/main/resources/templates/Accueil.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jwt-spring/src/main/java/org/sid/dao/AppRoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jwt-spring/src/main/java/org/sid/dao/TaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jwt-spring/src/main/java/org/sid/dao/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jwt-spring/src/main/java/org/sid/entities/AppRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jwt-spring/src/main/java/org/sid/entities/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jwt-spring/src/main/java/org/sid/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jwt-spring/src/main/java/org/sid/security/JWTAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jwt-spring/src/main/java/org/sid/security/JWTAutorizationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jwt-spring/src/main/java/org/sid/security/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jwt-spring/src/main/java/org/sid/security/SecurityConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jwt-spring/src/main/java/org/sid/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jwt-spring/src/main/java/org/sid/service/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jwt-spring/src/main/java/org/sid/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jwt-spring/src/main/java/org/sid/service/UserPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jwt-spring/src/main/java/org/sid/web/AccountRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jwt-spring/src/main/java/org/sid/web/RegisterForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jwt-spring/src/main/java/org/sid/web/TaskRest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../keycloak-app/src/main/java/org/glsid/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../keycloak-app/src/main/java/org/glsid/security/CustomKeycloakSpringBootConfigResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../keycloak-app/src/main/java/org/glsid/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../keycloak-app/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../keycloak-app/src/main/resources/templates/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../a-bourse-societe-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../a-bourse-societe-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../a-bourse-societe-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../a-bourse-societe-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../a-bourse-societe-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../a-bourse-societe-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../a-bourse-societe-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../a-bourse-societe-service/src/main/java/com/glsid/ABourseSocieteServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../a-bourse-societe-service/src/main/java/com/glsid/dao/SocieteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../a-bourse-societe-service/src/main/java/com/glsid/entitites/Societe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../a-bourse-societe-service/src/main/java/com/glsid/services/BourseRestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../a-bourse-societe-service/src/main/resources/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../a-bourse-societe-service/src/test/java/com/glsid/ABourseSocieteServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../config-server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../config-server/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../config-server/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../config-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../config-server/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../config-server/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../config-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../config-server/src/main/java/org/glsid/ConfigServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../config-server/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../config-server/src/test/java/org/glsid/ConfigServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eurika-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eurika-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eurika-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eurika-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eurika-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eurika-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eurika-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eurika-service/src/main/java/org/glsid/EurikaServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eurika-service/src/main/resources/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../eurika-service/src/test/java/org/glsid/EurikaServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proxy-servivce/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proxy-servivce/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proxy-servivce/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proxy-servivce/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proxy-servivce/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proxy-servivce/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proxy-servivce/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proxy-servivce/src/main/java/org/glsid/AProxyServivceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proxy-servivce/src/main/java/org/glsid/services/BourseGatewayRestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proxy-servivce/src/main/resources/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proxy-servivce/src/test/java/org/glsid/AProxyServivceApplicationTests.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/admin-products/admin-products.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="34" column="89" lean-forward="true" selection-start-line="34" selection-start-column="89" selection-end-line="34" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/admin-products/admin-products.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="69" column="30" lean-forward="true" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/services/catalogue.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/AnalyseApp/src/app/services/authentication.service.ts" />
+        <option value="$PROJECT_DIR$/AnalyseApp/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/AnalyseApp/src/app/categories/categories.component.ts" />
+        <option value="$PROJECT_DIR$/AnalyseApp/src/app/products/products.component.ts" />
+        <option value="$PROJECT_DIR$/AnalyseApp/src/app/products/products.component.css" />
+        <option value="$PROJECT_DIR$/AnalyseApp/src/app/products/products.component.html" />
+        <option value="$PROJECT_DIR$/AnalyseApp/src/app/categories/categories.component.css" />
+        <option value="$PROJECT_DIR$/AnalyseApp/src/app/categories/categories.component.html" />
+        <option value="$PROJECT_DIR$/AnalyseApp/src/app/home/home.component.css" />
+        <option value="$PROJECT_DIR$/AnalyseApp/src/app/home/home.component.html" />
+        <option value="$PROJECT_DIR$/AnalyseApp/src/app/home/home.component.ts" />
+        <option value="$PROJECT_DIR$/AnalyseApp/src/app/client-details/client-details.component.css" />
+        <option value="$PROJECT_DIR$/AnalyseApp/src/app/app-routing.module.ts" />
+        <option value="$PROJECT_DIR$/AnalyseApp/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/AnalyseApp/src/app/client-details/client-details.component.html" />
+        <option value="$PROJECT_DIR$/AnalyseApp/src/app/client-details/client-details.component.ts" />
+        <option value="$PROJECT_DIR$/AnalyseApp/src/app/services/user.service.ts" />
+        <option value="$PROJECT_DIR$/AnalyseApp/src/app/admin-users/admin-users.component.ts" />
+        <option value="$PROJECT_DIR$/AnalyseApp/src/app/admin-users/admin-users.component.html" />
+        <option value="$PROJECT_DIR$/AnalyseApp/src/app/admin-categories/admin-categories.component.ts" />
+        <option value="$PROJECT_DIR$/AnalyseApp/src/app/admin-categories/admin-categories.component.html" />
+        <option value="$PROJECT_DIR$/AnalyseApp/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/AnalyseApp/src/app/services/catalogue.service.ts" />
+        <option value="$PROJECT_DIR$/AnalyseApp/src/app/admin-products/admin-products.component.ts" />
+        <option value="$PROJECT_DIR$/AnalyseApp/src/app/admin-products/admin-products.component.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Front-End" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Front-End" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Front-End" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Front-End" type="462c0819:PsiDirectoryNode" />
+              <item name="AnalyseApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Front-End" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Front-End" type="462c0819:PsiDirectoryNode" />
+              <item name="AnalyseApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Front-End" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Front-End" type="462c0819:PsiDirectoryNode" />
+              <item name="AnalyseApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Front-End" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Front-End" type="462c0819:PsiDirectoryNode" />
+              <item name="AnalyseApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="admin-categories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Front-End" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Front-End" type="462c0819:PsiDirectoryNode" />
+              <item name="AnalyseApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="admin-products" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Ecommerce-BackEnd-spring" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.tslint" />
+    <property name="ts.external.directory.path" value="F:\intellijWorkSpace\Devoir\Front-End\AnalyseApp\node_modules\typescript\lib" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8df16f8-4e73-4008-ba24-a331d42d0279" name="Default Changelist" comment="" />
+      <created>1574210975538</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574210975538</updated>
+      <workItem from="1574210976771" duration="1300000" />
+      <workItem from="1574241750552" duration="721000" />
+      <workItem from="1574361445332" duration="1808000" />
+      <workItem from="1574707865262" duration="599000" />
+      <workItem from="1574784416776" duration="21934000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="26362000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23529412" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32719547" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19762062" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32719547" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/AnalyseApp/src/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/products/products.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/categories/categories.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/home/home.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/products/products.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/categories/categories.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/client-details/client-details.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/products/products.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="66" column="18" lean-forward="true" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="55" column="57" lean-forward="true" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/services/authentication.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="37" column="2" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/services/user.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/client-details/client-details.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/admin-users/admin-users.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="73" column="42" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/admin-users/admin-users.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="81" column="61" lean-forward="true" selection-start-line="81" selection-start-column="61" selection-end-line="81" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/client-details/client-details.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="77" column="40" lean-forward="true" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/categories/categories.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/admin-categories/admin-categories.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="99" selection-start-line="13" selection-start-column="99" selection-end-line="13" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/services/catalogue.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/admin-products/admin-products.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="69" column="30" lean-forward="true" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/admin-categories/admin-categories.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="24" column="51" lean-forward="true" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalyseApp/src/app/admin-products/admin-products.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="34" column="89" lean-forward="true" selection-start-line="34" selection-start-column="89" selection-end-line="34" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
